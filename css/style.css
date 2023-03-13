@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f5f8;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 70%px;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.search-text {
+  padding: 4px;
+}
+
+.search-input {
+  padding: 8px;
+  margin: 8px;
+}
+
+.repo-error {
+  font-size: 12px;
+  color: red;
+}
+
+.search-button {
+  padding: 8px;
+  background-color: blueviolet;
+  color: #f1f5f8;
+  cursor: pointer;
+  border: none;
+}
+
+.search-button:disabled {
+  background-color: grey;
+  cursor: no-drop;
+}
+
+.results {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.repo {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+  box-shadow: 8px 8px 2px 1px rgb(0, 0, 255, .2);
+}
