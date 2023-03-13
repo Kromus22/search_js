@@ -56,7 +56,7 @@ formEl.addEventListener('submit', async (e) => {
 });
 
 formEl.addEventListener('input', () => {
-  if (inputEl.value.length === 0) {
+  if (inputEl.value.length < 2) {
     searchButtonEl.disabled = true;
     error.style.display = "block";
   } else {
